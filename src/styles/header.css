@@ -1,0 +1,39 @@
+header {
+  align-items: center;
+  border-bottom: 3px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 4px auto;
+  padding: 10px;
+  height: 20%;
+  width: 99%;
+}
+
+.header-image {
+  margin: 20px;
+  border: 4px solid rgb(228, 223, 223);
+}
+
+#root > div > header > div.\.typewriter-wrap {
+  align-items: null;
+  height: 170px;
+}
+
+@media only screen and (min-width: 600px) {
+  header {
+    align-items: unset;
+    flex-direction: row;
+    margin: 2rem auto 3rem auto;
+    width: 90%;
+  }
+
+  .header-image {
+    margin-right: 35px;
+  }
+
+  .typewriter-wrap {
+    display: flex;
+    flex-direction: row;
+  }
+}
